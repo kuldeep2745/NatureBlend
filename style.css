@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1468413253725-0d5181091126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.back nav{
+    width: 100%;
+    height: 70px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.back nav .links{
+    height: 100%;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back nav .links a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.back nav .links a:hover{
+    color: orange;
+    transition:0.5s;
+}
+.back nav button{
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 15%;
+    background-color:lightblue;
+}
+.back nav button:hover{
+    cursor: pointer;
+    background-color:orange;
+    transition: 0.5s;
+}
+.back .overlay {
+    background-color:rgba(0, 0, 0, 0.238);
+    padding: 0 100px;
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back .overlay .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back .overlay .content .details {
+    color: #f2f2f2;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+.back .overlay .content .social {
+    height: 300px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}
+.back .overlay .content .details h2{
+    font-size:5rem;
+    color: white;
+    letter-spacing:5px;
+    
+}
+.back .overlay .content .details p{
+font-size: 14px;
+color: white;
+font-weight: bold;
+align-items: left;
+}
+.back .overlay .content .details button{
+    width: 200px;
+    height: 30px;
+    background-color:transparent;
+    border: 0;
+    outline: 0;
+    border: solid 2px white;
+    align-items: left;
+}
+.back .overlay .content .details button:hover{
+    cursor: pointer;
+    background-color:rgba(255, 166, 0, 0.64);
+    transition: 0.5s;
+}
+.back .overlay .content .social a{
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 50px;
+    height: 50px;
+    background-color:lightblue;
+    border-radius: 50%;
+}
+
+
+.back .overlay .content .social a:hover{
+box-shadow: 0px 0 10px black;
+}
+.back .overlay2{
+    width: 100%;
+    height: 220%;
+    background-color: rgba(178, 199, 205, 0.753);
+}
+.back .overlay2 .content2{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* padding: 20px 0; */
+    margin-left: 50px;
+    margin-right: 50px;
+background-color: white;
+}
+.back .overlay2 .content2 .uppercontent{
+    padding: 0 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.back .overlay2 .uppercontent h2{
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+}
+.back .overlay2 .uppercontent p{
+    height: 100px;
+}
+.back .overlay2 .content2 .photo-group{
+    /* padding: 0 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back .overlay2 .content2 .photo1 img{
+    height: 200px;
+    width: 335px;
+}
+.back .overlay2 .content2 .photo2 img{
+    height: 200px;
+    width: 335px;
+}
+.back .overlay2 .content2 .photo3 img{
+    height: 200px;
+    width: 335px;
+}
+.back .overlay2 .content2 .photo-group h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+.back .overlay2 .content2 .photo-group p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+}
+.back .overlay2 .content2 .photo-group button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: rgba(178, 199, 205, 0.753);
+}
+.back .overlay2 .content2 .photo-group button:hover{
+    cursor: pointer;
+    background-color:rgba(255, 166, 0, 0.64);
+    transition: 0.5s;
+
+}
+.back .overlay2 .content2 .ending{
+    margin-top: 150px;
+    height: 670px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.back .overlay2 .content2 .ending h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    color: white;
+    margin-top: 300px;
+}
+.back .overlay2 .content2 .ending button{
+    color: white;
+    height: 50px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+}
+.back .overlay2 .content2 .ending button:hover{
+    cursor: pointer;
+    background-color:grey;
+    transition: 0.5s;
+}
+.back .overlay3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.back .overlay3 .ovrly3inner1{
+        height: 100%;
+        width: 49.5%;
+        background-image: url(https://images.unsplash.com/photo-1587502536575-6dfba0a6e017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+        background-repeat: no-repeat;
+        /* background-position: bottom; */
+        background-size:cover;
+    }
+    .back .overlay3 .ovrly3inner1 h2{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 5px;
+        color: white;
+        padding: 0 10px;
+        border: 3px dashed white;
+        width: 350px;
+        margin-top: 25%;
+        background-color: steelblue;
+    }
+    .back .overlay3 .ovrly3inner2{
+        letter-spacing:5px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height:100%;
+        width: 50%;
+        background-color: steelblue;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    }
+    .back .overlay3 .ovrly3inner2 h3{
+        color: white;
+        margin-top: 220px;
+        width: 350px;
+    }
+    .back .overlay3 .ovrly3inner2 h2{
+        color: white;
+        margin-bottom: 220px;
+    }
+    .back .jump{
+        width: 100%;
+        height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1518555021706-4caf31bd389b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    }
+    .back .jump .overlay4{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.177);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .back .jump .overlay4 h2{
+        letter-spacing:5px;
+        margin-top: 350px;
+        margin-left: 860px;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    .back .jump .overlay4 p{
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;   
+    margin-top: 20px;
+    margin-left: 1000px;
+    padding: 10px;
+    }
